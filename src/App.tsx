@@ -101,16 +101,17 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
         */}
-      <h1>Ryhmäsimulaattori</h1>
+      <h1>ISKO</h1>
+      <h2>Ryhmäsimulaattori</h2>
 
-      <h2>Ryhmän tehtävä:</h2>
+      <h3>Ryhmän tehtävä:</h3>
       <TimedMessageTS
         message={`${getRandomRooli(tehtavat)}`}
         duration={10000}
         className="timed-message"
         />
 
-      <h2>Roolisi ryhmässä:</h2>
+      <h3>Roolisi ryhmässä:</h3>
       <TimedMessageTS
         message={`${getRandomRooli(roolit)}`}
         duration={1000}
